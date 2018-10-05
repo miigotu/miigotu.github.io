@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* path to glyphicons */
+$icon-font-path: "/node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* any style customization must be before the bootstrap import */
+@import "bootstrap";
+
+.navbar-brand
+{
+  padding: 0px; // this allows the image to occupy all the padding space of the navbar--brand
+}
+
+.navbar-brand > img
+{
+   height: 100%; // set height to occupy full height space on the navbar-brand
+   width: auto; // width should be auto to allow img to scale accordingly
+   max-height: 100%; // optional
+   mrgin: 0 auto; // optional
+}

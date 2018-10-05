@@ -1,0 +1,12 @@
+{
+  "name": "miigotu.github.io",
+  "version": "1.0.0",
+  "repository": "git@github.com:miigotu/miigotu.github.io.git",
+  "author": "miigotu <miigotu@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "3.4.1",
+    "jquery": "^3.5.1"
+  }
+}
