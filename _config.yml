@@ -44,14 +44,13 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-mentions
-  #- jekyll-minifier
   - jekyll-github-metadata
   - jekyll-relative-links
   - jekyll-admin
   - jekyll-paginate
   - jekyll-default-layout
   - jekyll-favicon
-  - jekyll-optional-front-matter
+#  - jekyll-optional-front-matter
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
