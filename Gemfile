@@ -23,7 +23,6 @@ group :jekyll_plugins do
   gem "jekyll-mentions"
   gem "jekyll-github-metadata"
   gem "jekyll-relative-links"
-  gem "jekyll-admin"
   gem "jekyll-paginate"
   gem "jekyll-default-layout"
   gem "jekyll-favicon"
